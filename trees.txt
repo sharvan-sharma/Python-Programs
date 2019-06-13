@@ -1,0 +1,27 @@
+This program can calculate the total number of cordinates(x,y) 
+whose x and y values are even and they lie on the boundary or inside a closed polygon,
+
+INPUT
+>first line contains a single integer n(value of n is equal to number of vertices of polygon)
+>next n lines contains value of x and y for vertex in a format(x,y)
+(NOTE:we can construct polygon by moving from one vertex to other clockwise and input is given in this order)
+
+OUTPUT
+>single integer denoting the total number of cordinates with both x and y value even lie inside or on the boundry
+
+TESTCASE
+===================
+Input
+4
+-4,-4
+-4,4
+4,4
+4,-4
+--------
+Output
+25
+===================
+Explanation
+it is a square so when we construct this square we get 5 points for x=-4
+like(-4,4)(-4,2)(-4,0)(-4,-2)(-4,-4) and so on.
+So there are 25 such points. 
