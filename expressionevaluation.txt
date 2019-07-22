@@ -1,0 +1,54 @@
+Expressionevaluation.py is the impelemntation of algorith of solving an in fix mathematical expression in python program .
+It contains three functions
+1.conversion of infix expression to postfix expression
+2.calculating the expresson.
+3.calculating the expression with stack trace.
+
+Input format:
+1.string containg the expression
+2.y/n
+
+Output with stack trace:
+1.Postfix expresssion string
+2.stack trace in the form of array
+3. result
+
+Example1:
+---------------------------------------------------------------------------------
+Enter the expression which include *,+,-,/,% operators,"(",")"  barackets or any real number
+(4+5)/(7-3+8*2)
+Postfix expression : 4,5,+7,3,-8,2,*+/
+Do you want to print Stack trace: y/n
+y
+['phi', 4.0]
+['phi', 4.0, 5.0]
+['phi']
+['phi', 9.0]
+['phi', 9.0, 7.0]
+['phi', 9.0, 7.0, 3.0]
+['phi', 9.0]
+['phi', 9.0, 4.0]
+['phi', 9.0, 4.0, 8.0]
+['phi', 9.0, 4.0, 8.0, 2.0]
+['phi', 9.0, 4.0]
+['phi', 9.0, 4.0, 16.0]
+['phi', 9.0]
+['phi', 9.0, 20.0]
+['phi']
+['phi', 0.45]
+Answer : 0.45
+----------------------------------------------------------------------------
+
+Output without stack trace:
+1.Postfix expresssion string
+2. result
+
+Example2:
+---------------------------------------------------------------
+Enter the expression which include *,+,-,/,% operators,"(",")"  barackets or any real number
+(4+5)/(7-3+8*2)
+Postfix expression : 4,5,+7,3,-8,2,*+/
+Do you want to print Stack trace: y/n
+n
+Answer : 0.45
+----------------------------------------------------------------------------
